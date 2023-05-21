@@ -13,7 +13,7 @@ public class SpringBootDockerApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringBootDockerApplication.class);
 	
 	@PostConstruct
-	public void init()
+	public init()
 	{
 		logger.info("Application Started...");
 		logger.info("Application Started second statement...");
