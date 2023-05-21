@@ -16,6 +16,7 @@ public class SpringBootDockerApplication {
 	public void init()
 	{
 		logger.info("Application Started...");
+		logger.info("Application Started second statement...");
 		
 	}
 
